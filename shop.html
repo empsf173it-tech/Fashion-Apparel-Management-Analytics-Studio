@@ -1,0 +1,665 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VogueMetrics | The Collection</title>
+  <meta name="description"
+    content="Shop the full VogueMetrics collection â€” ready-to-wear, tailoring and accessories, filtered by gender and occasion.">
+  <meta name="theme-color" content="#14110E">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/rtl.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body class="nav-overlay">
+
+  
+
+  <div class="drawer-overlay"></div>
+
+  <aside class="drawer" aria-label="Mobile navigation">
+    <div class="drawer-header">
+      <span class="logo"><img src="assets/images/voguemetrics-logo.svg" alt="VogueMetrics"></span>
+      <button class="drawer-close" aria-label="Close menu"><i class="ph ph-x"></i></button>
+    </div>
+    <nav class="drawer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="features.html">Features</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="drawer-actions">
+      <div class="drawer-utility">
+        <button class="theme-toggle" aria-label="Toggle theme"></button>
+        <span class="drawer-meta">Appearance &amp; Direction</span>
+      </div>
+      <a href="contact.html#enquiry" class="btn btn-primary btn-full">Book an Appointment</a>
+      <p class="drawer-meta">Client Care â€” +1 800 555 0199</p>
+    </div>
+  </aside>
+
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo"><img src="assets/images/voguemetrics-logo.svg" alt="VogueMetrics"></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="features.html">Features</a>
+        <a href="shop.html" class="active">Shop</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle dark mode"></button>
+        <a href="contact.html#enquiry" class="btn btn-sm btn-primary desk-only">Book an Appointment</a>
+        <button class="hamburger" aria-label="Open menu"><i class="ph ph-list"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Page header -->
+        <section class="hero light-text" style="min-height: 50vh; display: flex; align-items: center;">
+      <div class="hero-media">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2400" alt="Hero background" loading="lazy" style="object-fit: cover; object-position: center; width: 100%; height: 100%;">
+      </div>
+      <div class="hero-overlay" style="background: rgba(0,0,0,0.65);"></div>
+      <div class="hero-content centered" style="width: 100%; margin: 0 auto;">
+        <div class="hero-inner" style="margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a><span>/</span><span>Collection</span>
+        </div>
+        <span class="eyebrow centered" data-reveal>Autumn / Winter MMXXVI</span>
+        <h1 data-reveal style="--reveal-delay:1">The Collection</h1>
+        <p class="subtext" data-reveal style="--reveal-delay:2">Every piece we make, in one place â€” cut in small runs
+          and finished by hand.</p>
+              </div>
+      </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="container tight" style="padding-top:0" id="new">
+      <div class="rail-head" data-reveal="fade">
+        <div>
+          <span class="eyebrow">Just Landed</span>
+          <h2>New Arrivals</h2>
+          <p class="subtext">The first drop of the season â€” six pieces cut this month, most in runs of fifty or fewer.
+          </p>
+        </div>
+        <div class="rail-nav">
+          <button class="rail-btn" data-dir="prev" aria-label="Previous arrivals"><i
+              class="ph ph-arrow-left"></i></button>
+          <button class="rail-btn" data-dir="next" aria-label="Next arrivals"><i class="ph ph-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <!-- Cards carry no [data-reveal] of their own: inside a horizontal
+           scroller the observer never fires for off-screen cards, so they
+           would page in blank. The rail itself fades as one. -->
+      <div class="rail" data-reveal="fade">
+
+        <article class="card product-card">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/new-bomber-jacket-rust.jpg" alt="Cropped Bomber Jacket in rust" loading="lazy">
+            </a>
+            <span class="product-badge new">New</span>
+            <button class="wishlist" aria-label="Save Cropped Bomber Jacket"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Women â€” Casual</span>
+            <a href="#">
+              <h3 class="product-title">Cropped Bomber Jacket</h3>
+            </a>
+            <div class="price">$340</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/new-cotton-tee-white.jpg" alt="Boxy Cotton Tee in white" loading="lazy">
+            </a>
+            <span class="product-badge new">New</span>
+            <button class="wishlist" aria-label="Save Boxy Cotton Tee"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Men â€” Casual</span>
+            <a href="#">
+              <h3 class="product-title">Boxy Cotton Tee</h3>
+            </a>
+            <div class="price">$95</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/new-checked-blazer-grey.jpg" alt="Checked Wool Blazer in grey" loading="lazy">
+            </a>
+            <span class="product-badge new">New</span>
+            <button class="wishlist" aria-label="Save Checked Wool Blazer"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Women â€” Formal</span>
+            <a href="#">
+              <h3 class="product-title">Checked Wool Blazer</h3>
+            </a>
+            <div class="price">$465</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/new-utility-trouser-rose.jpg" alt="Tapered Utility Trouser in dusty rose"
+                loading="lazy">
+            </a>
+            <span class="product-badge new">New</span>
+            <button class="wishlist" aria-label="Save Tapered Utility Trouser"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Women â€” Casual</span>
+            <a href="#">
+              <h3 class="product-title">Tapered Utility Trouser</h3>
+            </a>
+            <div class="price">$210</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="bottoms">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/new-graphic-tee-black.jpg" alt="Cropped Graphic Tee in black" loading="lazy">
+            </a>
+            <span class="product-badge new">New</span>
+            <button class="wishlist" aria-label="Save Cropped Graphic Tee"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Women â€” Athleisure</span>
+            <a href="#">
+              <h3 class="product-title">Cropped Graphic Tee</h3>
+            </a>
+            <div class="price">$110</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/new-crew-tee-ecru.jpg" alt="Garment-Dyed Crew Tee in ecru" loading="lazy">
+            </a>
+            <span class="product-badge new">New</span>
+            <button class="wishlist" aria-label="Save Garment-Dyed Crew Tee"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Men â€” Casual</span>
+            <a href="#">
+              <h3 class="product-title">Garment-Dyed Crew Tee</h3>
+            </a>
+            <div class="price">$85</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <p class="rail-hint">Scroll or drag to see all six &mdash; restocked every Thursday</p>
+    </section>
+    <!-- Seasonal sale -->
+    <!-- Seasonal sale -->
+    <section class="container tight">
+      <div class="promo" data-reveal="fade">
+        <div class="promo-media">
+          <span class="promo-flag">Ends Sunday</span>
+          <img src="assets/images/promo-autumn-sale.jpg" alt="Autumn sale â€” models in seasonal outerwear"
+            loading="lazy">
+        </div>
+        <div class="promo-body band-dark centered">
+          <span class="eyebrow centered">Seasonal Event</span>
+          <h2>The Autumn Sale</h2>
+          <p class="subtext">Up to 50% off last season's tailoring, knitwear and evening pieces.
+            Final markdowns â€” once a size is gone, it is gone.</p>
+
+          <div class="promo-code">
+            <span>Use code</span>
+            <strong>VOGUEMETRICS20</strong>
+            <button type="button" class="promo-copy" data-code="VOGUEMETRICS20" aria-label="Copy promo code VOGUEMETRICS20">
+              <i class="ph ph-copy"></i>
+            </button>
+          </div>
+
+          <div class="promo-countdown" data-countdown="2026-08-09T23:59:59">
+            <div><strong data-unit="days">00</strong><span>Days</span></div>
+            <div><strong data-unit="hours">00</strong><span>Hours</span></div>
+            <div><strong data-unit="minutes">00</strong><span>Minutes</span></div>
+            <div><strong data-unit="seconds">00</strong><span>Seconds</span></div>
+          </div>
+
+          <div class="promo-actions">
+            <a href="#collection" class="btn btn-accent">Shop the Sale</a>
+            <a href="checkout.html?promo=VOGUEMETRICS20" class="btn btn-outline">Apply at Checkout</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filtering -->
+    <section class="container tight" id="collection">
+      <div class="section-head-split centered" data-reveal="fade">
+        <div>
+          <span class="eyebrow centered">Everything</span>
+          <h2>Shop All</h2>
+          <p class="subtext">Filter by who it's for and where you're wearing it.</p>
+        </div>
+      </div>
+
+      <div class="filter-bar" data-reveal="fade">
+        <button class="btn btn-outline filter-btn active" data-gender="all" data-occasion="all">All</button>
+        <button class="btn btn-outline filter-btn" data-gender="women" data-occasion="all">Women</button>
+        <button class="btn btn-outline filter-btn" data-gender="men" data-occasion="all">Men</button>
+        <button class="btn btn-outline filter-btn" data-gender="all" data-occasion="casual">Casual</button>
+        <button class="btn btn-outline filter-btn" data-gender="all" data-occasion="formal">Formal</button>
+        <button class="btn btn-outline filter-btn" data-gender="all" data-occasion="athleisure">Athleisure</button>
+      </div>
+
+      <div class="grid grid-4 product-grid" id="product-list">
+
+        <article class="card product-card" data-gender="women" data-occasion="formal" data-reveal>
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-silk-midi-dress.jpg" alt="Draped Silk Midi Dress" loading="lazy">
+            </a>
+            <span class="product-badge sale">Sale</span>
+            <button class="wishlist" aria-label="Save Draped Silk Midi Dress"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Women â€” Formal</span>
+            <a href="#">
+              <h3 class="product-title">Draped Silk Midi Dress</h3>
+            </a>
+            <div class="price"><span class="price-original">$450</span> <span class="price-sale">$295</span></div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="dresses">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="men" data-occasion="formal" data-reveal
+          style="--reveal-delay:1">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-wool-blazer-formal.jpg" alt="Tailored Wool Blazer" loading="lazy">
+            </a>
+            <span class="product-badge new">New</span>
+            <button class="wishlist" aria-label="Save Tailored Wool Blazer"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Men â€” Formal</span>
+            <a href="#">
+              <h3 class="product-title">Tailored Wool Blazer</h3>
+            </a>
+            <div class="price">$520</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="women" data-occasion="casual" data-reveal
+          style="--reveal-delay:2">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-cashmere-sweater-casual.jpg" alt="Ribbed Cashmere Sweater" loading="lazy">
+            </a>
+            <button class="wishlist" aria-label="Save Ribbed Cashmere Sweater"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Women â€” Casual</span>
+            <a href="#">
+              <h3 class="product-title">Ribbed Cashmere Sweater</h3>
+            </a>
+            <div class="price">$380</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="men" data-occasion="casual" data-reveal
+          style="--reveal-delay:3">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-pleated-trousers-men.jpg" alt="Relaxed Pleated Trousers" loading="lazy">
+            </a>
+            <span class="product-badge new">New</span>
+            <button class="wishlist" aria-label="Save Relaxed Pleated Trousers"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Men â€” Casual</span>
+            <a href="#">
+              <h3 class="product-title">Relaxed Pleated Trousers</h3>
+            </a>
+            <div class="price">$210</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="bottoms">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="women" data-occasion="athleisure" data-reveal>
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-performance-crop-top.jpg" alt="Performance Crop Top" loading="lazy">
+            </a>
+            <button class="wishlist" aria-label="Save Performance Crop Top"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Women â€” Athleisure</span>
+            <a href="#">
+              <h3 class="product-title">Performance Crop Top</h3>
+            </a>
+            <div class="price">$85</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="men" data-occasion="athleisure" data-reveal
+          style="--reveal-delay:1">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-cotton-hoodie-men.jpg" alt="Heavyweight Cotton Hoodie" loading="lazy">
+            </a>
+            <button class="wishlist" aria-label="Save Heavyweight Cotton Hoodie"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Men â€” Athleisure</span>
+            <a href="#">
+              <h3 class="product-title">Heavyweight Cotton Hoodie</h3>
+            </a>
+            <div class="price">$120</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="women" data-occasion="formal" data-reveal
+          style="--reveal-delay:2">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-velvet-evening-gown.jpg" alt="Velvet Evening Gown" loading="lazy">
+            </a>
+            <span class="product-badge">Limited</span>
+            <button class="wishlist" aria-label="Save Velvet Evening Gown"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Women â€” Formal</span>
+            <a href="#">
+              <h3 class="product-title">Velvet Evening Gown</h3>
+            </a>
+            <div class="price">$650</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="dresses">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="men" data-occasion="casual" data-reveal
+          style="--reveal-delay:3">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-denim-jacket-vintage.jpg" alt="Vintage Wash Denim Jacket" loading="lazy">
+            </a>
+            <button class="wishlist" aria-label="Save Vintage Wash Denim Jacket"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Men â€” Casual</span>
+            <a href="#">
+              <h3 class="product-title">Vintage Wash Denim Jacket</h3>
+            </a>
+            <div class="price">$195</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="women" data-occasion="formal" data-reveal>
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-checked-blazer-women.jpg" alt="Checked Wool Blazer" loading="lazy">
+            </a>
+            <span class="product-badge new">New</span>
+            <button class="wishlist" aria-label="Save Checked Wool Blazer"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Women â€” Formal</span>
+            <a href="#">
+              <h3 class="product-title">Checked Wool Blazer</h3>
+            </a>
+            <div class="price">$465</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="men" data-occasion="casual" data-reveal
+          style="--reveal-delay:1">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-cotton-tee-men.jpg" alt="Boxy Cotton Tee" loading="lazy">
+            </a>
+            <span class="product-badge new">New</span>
+            <button class="wishlist" aria-label="Save Boxy Cotton Tee"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Men â€” Casual</span>
+            <a href="#">
+              <h3 class="product-title">Boxy Cotton Tee</h3>
+            </a>
+            <div class="price">$95</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="women" data-occasion="athleisure" data-reveal
+          style="--reveal-delay:2">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-graphic-tee-women.jpg" alt="Cropped Graphic Tee" loading="lazy">
+            </a>
+            <button class="wishlist" aria-label="Save Cropped Graphic Tee"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Women â€” Athleisure</span>
+            <a href="#">
+              <h3 class="product-title">Cropped Graphic Tee</h3>
+            </a>
+            <div class="price">$110</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-gender="men" data-occasion="casual" data-reveal
+          style="--reveal-delay:3">
+          <div class="card-media">
+            <a href="#" class="card-img-wrapper">
+              <img src="assets/images/shop-crew-tee-men.jpg" alt="Garment-Dyed Crew Tee" loading="lazy">
+            </a>
+            <button class="wishlist" aria-label="Save Garment-Dyed Crew Tee"><i class="ph ph-heart"></i></button>
+            <div class="quick-add"><button class="quick-add-btn">Add to Bag</button></div>
+          </div>
+          <div class="card-inner">
+            <span class="product-category">Men â€” Casual</span>
+            <a href="#">
+              <h3 class="product-title">Garment-Dyed Crew Tee</h3>
+            </a>
+            <div class="price">$85</div>
+            <div class="product-actions">
+              <button class="size-guide-btn" data-garment-type="tops">Size Guide</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="empty-state" hidden>No pieces match that combination â€” try another filter.</p>
+    </section>
+
+    <!-- Services -->
+    <div class="container">
+      <div class="feature-row" data-reveal="fade">
+        <div class="feature-item">
+          <i class="ph ph-truck"></i>
+          <h4>Complimentary Shipping</h4>
+          <p>On all orders over $200</p>
+        </div>
+        <div class="feature-item">
+          <i class="ph ph-arrow-u-up-left"></i>
+          <h4>Thirty-Day Returns</h4>
+          <p>Free collection worldwide</p>
+        </div>
+        <div class="feature-item">
+          <i class="ph ph-ruler"></i>
+          <h4>Fit Assurance</h4>
+          <p>Interactive size guides</p>
+        </div>
+        <div class="feature-item">
+          <i class="ph ph-shield-check"></i>
+          <h4>Secure Checkout</h4>
+          <p>Encrypted payments</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo"><img src="assets/images/voguemetrics-logo.svg" alt="VogueMetrics"></a>
+          <p class="footer-about">Redefining modern elegance with curated pieces for the contemporary wardrobe. Designed
+            in Milan, made across Europe.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="ph ph-pinterest-logo"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul class="footer-links">
+            <li><a href="shop.html?gender=women">Women's Edit</a></li>
+            <li><a href="shop.html?gender=men">Men's Edit</a></li>
+            <li><a href="shop.html?occasion=formal">Evening Wear</a></li>
+            <li><a href="shop.html?occasion=casual">Everyday Casual</a></li>
+            <li><a href="shop.html#new">New Arrivals</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Client Care</h4>
+          <ul class="footer-links">
+            <li><button class="size-guide-btn" data-garment-type="tops">Size Guide</button></li>
+            <li><a href="#">Shipping &amp; Returns</a></li>
+            <li><a href="contact.html">Enquiries</a></li>
+            <li><a href="contact.html">Book an Appointment</a></li>
+            <li><a href="contact.html">Store Locator</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>The Maison</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="blog.html">Journal</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 VogueMetrics Fashion â€” Milan Â· Paris Â· New York</span>
+        <nav>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Accessibility</a>
+        </nav>
+        <div class="footer-pay" aria-label="Accepted payment methods">
+          <i class="ph ph-credit-card"></i>
+          <i class="ph ph-apple-logo"></i>
+          <i class="ph ph-google-logo"></i>
+          <i class="ph ph-paypal-logo"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" aria-label="Close modal"><i class="ph ph-x"></i></button>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <div class="toast" role="status" aria-live="polite"><i class="ph ph-check-circle"></i><span></span></div>
+  <button class="back-to-top" type="button" aria-label="Back to top"><i class="ph ph-arrow-up"></i></button>
+
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/shop.js"></script>
+</body>
+
+</html>
